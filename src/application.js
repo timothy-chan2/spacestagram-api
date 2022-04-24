@@ -5,7 +5,7 @@ const cors = require("cors");
 
 const app = express();
 
-const startDate = require("./startDate");
+const startDate = require("./routes/startDate");
 
 module.exports = function application(ENV) {
   app.use(cors());
